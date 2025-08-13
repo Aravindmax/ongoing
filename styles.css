@@ -40,8 +40,12 @@ nav a:visited {
   color: black;
 }
 a {
-  text-color:black:
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* Remove underline from links */
+}
+button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255); /* Remove underline from links */
 }
 /*----------------------------------------- section 1 styles -------------------------------------------------------------*/
 .container {
@@ -64,7 +68,7 @@ a {
 }
 .description {
   padding-left: 3%;
-  font-size: larger;
+  font-size: x-large;
   color: #0000008f;
   font-family: Arial, sans-serif;
   margin-top: 3%;
@@ -81,6 +85,7 @@ a {
   margin-top: 5%; 
   width: 20%; 
   cursor: pointer;
+  border-radius: 10px;
 }
 .order-button:hover {
   background-color: rgb(0, 0, 0); /* Darker shade on hover */
@@ -143,6 +148,7 @@ a {
   margin-top: 5%; 
   width: 20%; 
   cursor: pointer;
+  border-radius: 10px;
 
 }
 .order-button2:hover {
@@ -194,7 +200,7 @@ footer {
   border-top-right-radius: 1em;
   display: flex;
   justify-content: space-around;
-  background-color: #ff7f7f;
+  background-color: #ff5858;
   padding: 2.5em 5%;
   flex-wrap: wrap;
 }
@@ -224,7 +230,7 @@ footer {
 }
 
 .endcard {
-  background-color: #ff5858;
+  background-color: #a93636;
   text-align: center;
   padding: 1em 0;
 }
@@ -236,4 +242,49 @@ footer {
   margin: 0;
 }
 
+/*---------------------------------------ABOUT US------------------------*/
 
+.whitebox {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2%;
+  margin-top: 6%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* vertically align */
+}
+.whitebox2 {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* vertically align */
+}
+
+.image img {
+  width: 100%; /* fit container */
+  height: auto;
+}
+
+.titlea {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  margin-bottom: 3%;
+}
+
+.para {
+  text-align: justify;
+  color: black;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
